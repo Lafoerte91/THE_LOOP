@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 html {
   height: 100%;
 }
@@ -22,11 +23,34 @@ html {
   list-style-type: none;
   gap: 35px;
 }
-.nav a {
+.nav-link {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: #212121;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 91px;
+  height: 30px;
+  gap: 15px;
+}
+.cart-count {
+  width: 46px;
+  height: 17px;
+  background-image: url(/img/cart-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding-left: 25px;
+  padding-top: 5px;
 }/*# sourceMappingURL=style.css.map */
