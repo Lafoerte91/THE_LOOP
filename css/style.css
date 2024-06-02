@@ -3,6 +3,10 @@ html {
   height: 100%;
 }
 
+body {
+  margin: 0;
+}
+
 .container {
   max-width: 1110px;
   margin: 0 auto;
@@ -102,7 +106,7 @@ html {
   top: 0;
 }
 .box-price-old {
-  font-family: var(--font-family);
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 24px;
   letter-spacing: 0.05em;
@@ -113,11 +117,41 @@ html {
   margin-bottom: 14px;
 }
 .box-price-new {
-  font-family: var(--font-family);
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 42px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   text-align: right;
   color: #d84033;
+}
+
+.page-dark {
+  background-color: #212121;
+  padding-top: 80px;
+  padding-bottom: 69px;
+  align-items: center;
+}
+
+.notice {
+  text-align: center;
+}
+.notice-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 23px;
+}
+.notice-title span {
+  font-weight: 700;
+}
+.notice-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  text-align: center;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

@@ -10,6 +10,10 @@ html {
   height: 100%;
 }
 
+body {
+  margin: 0;
+}
+
 .container {
   max-width: 1110px;
   margin: 0 auto;
@@ -110,7 +114,7 @@ html {
     right: 0;
     top: 0;
     &-old {
-      font-family: var(--font-family);
+      font-family: $font-family;
       font-weight: 700;
       font-size: 24px;
       letter-spacing: 0.05em;
@@ -121,7 +125,7 @@ html {
       margin-bottom: 14px;
     }
     &-new {
-      font-family: var(--font-family);
+      font-family: $font-family;
       font-weight: 700;
       font-size: 42px;
       letter-spacing: 0.02em;
@@ -129,5 +133,35 @@ html {
       text-align: right;
       color: #d84033;
     }
+  }
+}
+
+.page-dark {
+  background-color: $black;
+  padding-top: 80px;
+  padding-bottom: 69px;
+  align-items: center;
+}
+
+.notice {
+  text-align: center;
+  &-title {
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 23px;
+    span {
+      font-weight: 700;
+    }
+  }
+  &-description {
+    font-family: $font-family;
+    font-weight: 300;
+    font-size: 21px;
+    text-align: center;
+    color: #fff;
   }
 }
