@@ -23,6 +23,8 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 50px;
+  margin-bottom: 160px;
 }
 
 .nav {
@@ -53,13 +55,79 @@ html {
     background-image: url(/img/cart-bg.svg);
     background-repeat: no-repeat;
     background-position: center center;
-    font-family: var(--font-family);
+    font-family: $font-family;
     font-weight: 700;
     font-size: 12px;
     letter-spacing: 0.03em;
     color: #fff;
     padding-left: 25px;
+    margin-top: 6px;
     padding-top: 5px;
   }
 }
 
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 133px;
+  .sale {
+    &-description {
+      font-family: $font-family;
+      font-weight: 400;
+      font-size: 30px;
+      letter-spacing: 0.02em;
+      color: #000;
+      margin-bottom: 35px;
+    }
+    &-title {
+      font-family: $font-family;
+      font-weight: 700;
+      font-size: 55px;
+      letter-spacing: 0.04em;
+      color: #000;
+      margin-bottom: 55px;
+    }
+  }
+}
+
+.btn {
+  width: 240px;
+  height: 55px;
+  background-color: $accent;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 30px;
+}
+
+.box {
+  position: relative;
+  &-price {
+    position: absolute;
+    right: 0;
+    top: 0;
+    &-old {
+      font-family: var(--font-family);
+      font-weight: 700;
+      font-size: 24px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      text-decoration: line-through;
+      text-align: right;
+      color: #000;
+      margin-bottom: 14px;
+    }
+    &-new {
+      font-family: var(--font-family);
+      font-weight: 700;
+      font-size: 42px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      text-align: right;
+      color: #d84033;
+    }
+  }
+}
