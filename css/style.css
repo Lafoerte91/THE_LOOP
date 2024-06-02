@@ -85,8 +85,6 @@ body {
 }
 
 .btn {
-  width: 240px;
-  height: 55px;
   background-color: #d7b399;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -95,6 +93,9 @@ body {
   color: #fff;
   text-decoration: none;
   padding: 18px 30px;
+}
+.btn-xs {
+  padding: 5px 30px;
 }
 
 .box {
@@ -154,4 +155,43 @@ body {
   font-size: 21px;
   text-align: center;
   color: #fff;
+}
+
+.collection {
+  display: flex;
+  justify-content: space-between;
+}
+.collection-man {
+  padding: 60px 0;
+  flex: 0 0 50%;
+  background-image: url(/img/man.png);
+  background-repeat: no-repeat;
+  background-size: 190px 171px;
+  background-position: right bottom;
+}
+.collection-woman {
+  padding: 60px 0;
+  flex: 0 0 50%;
+  background-image: url(/img/woman.png);
+  background-repeat: no-repeat;
+  background-size: 190px 171px;
+  background-position: right bottom;
+}
+.collection-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  color: #000;
+  margin-bottom: 25px;
+}
+.collection-title span {
+  font-weight: 500;
+}
+.collection-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 35px;
 }/*# sourceMappingURL=style.css.map */
